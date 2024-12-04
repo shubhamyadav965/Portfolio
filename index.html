@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <!--Baxicons link - to add fonts-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <a href="#home" class="logo">
+            Shubham <span>Yadav</span>
+        </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <!--navbar-->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-circle-1"></div>
+        <div class="home-circle-2"></div>
+
+        <div class="home-content">
+            <h3>Hi!</h3>
+            <h1>I'm <span>Shubham</span></h1>
+            <h3 class="text-animation">
+                I'm a <span class="typewriter-text"></span>
+            </h3>
+            <p>  I'm a passionate Frontend Developer with proficient skills in HTML, CSS, Bootstrap,
+                 JavaScript, and React.
+                 As a fresher, I am eager to apply my skills in creating responsive and dynamic user 
+                 interfaces that offer seamless user experiences.
+                 My goal is to contribute to innovative projects, where I can further develop
+                 my expertise and grow as a developer.
+            </p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shubham-yadav-6961b5282/" target="_blank" >
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a href="https://github.com/shubhamyadav965" target="_blank">
+                    <i class='bx bxl-github' ></i>
+                </a>
+                <a href="mailto:shubhyadavv04@gmail.com" target="_blank" >
+                    <i class='bx bx-envelope'></i>
+                </a>
+                    
+                <a href="https://www.instagram.com/invites/contact/?igsh=1gjd4ds2g1dkx&utm_content=s7dma68" target="_blank">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+
+            <a href="" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="profile.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section class="about" id="about">
+        <div class="about-circle"></div>
+        <div class="about-img">
+            <img src="profile.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="typewriter-text">
+                I'm a<span>Software Developer</span>
+            </h3>
+            <p>
+                I'm Shubham Yadav, a frontend developer with a passion for crafting engaging web experiences. 
+                I'm inspired by how technology shapes the future and enjoy being part of the process that makes 
+                ideas accessible to users through clean, user-friendly web applications.
+                <br>
+                Currently, I'm focused on expanding my skills in full-stack development and aim to 
+                contribute to open-source projects while learning from the developer community.
+                <br>
+                Outside of coding, I enjoy exploring new places. These adventures often spark my creativity, 
+                which influences my approach to web design and problem-solving.
+
+            </p>
+            <a href="" class="btn">Read More</a>
+            
+        </div>
+    </section>
+
+    <!-- education section-->
+    <section class="timeline-section" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>
+                        St. Xavier's Inter College, Jaunpur, Uttar Pradesh
+                        <br>
+                        Percentage:87%
+                    </p>
+                </div>
+            </div>
+        
+
+        
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>Intermediate</h3>
+                    <p>
+                        St. Xavier's Inter College, Jaunpur, Uttar Pradesh
+                        <br>
+                        Percentage:86.6%
+                    </p>
+                </div>
+            </div>
+        
+
+        
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2027(expected)</div>
+                <div class="timeline-content">
+                    <h3>B.Tech</h3>
+                    <p>
+                        IIIT BHAGALPUR, Bihar
+                        <br>
+                        CGPA:7.35
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--projects section-->
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="project-container">
+            <div class="projects-box">
+                <i class='bx bx-desktop'></i>
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A responsive and visually appealing personal portfolio to showcase my skills, projects, 
+                    and achievements.<br/>
+                    Technologies Used: HTML, CSS, JavaScript
+
+                </p>
+                
+            </div>
+
+            <div class="projects-box">
+                <i class="bx bx-dollar"></i> 
+                <h3>MoneyMingle</h3>
+                <p>
+                    A user-friendly application for converting between multiple currencies in real time.<br/>
+                    Technologies Used: JavaScript, HTML, CSS.
+                </p>
+                
+            </div>
+
+            
+            </div>
+        </div> 
+        
+    </section>
+
+
+    <!--contact section-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="subject">
+            </div>
+
+            <textarea name="" id="" cols="10" rows="10" placeholder="Your Message"></textarea>
+            
+
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/shubham-yadav-6961b5282/" target="_blank" >
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+            <a href="https://github.com/shubhamyadav965" target="_blank">
+                <i class='bx bxl-github' ></i>
+            </a>
+            <a href="mailto:shubhyadavv04@gmail.com" target="_blank" >
+                <i class='bx bx-envelope'></i>
+            </a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=1gjd4ds2g1dkx&utm_content=s7dma68" target="_blank">
+                <i class='bx bxl-instagram' ></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            
+            <li>
+                <a href="">About Me</a>
+            </li>
+            
+            <li>
+                <a href="">Privacy policy</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            © SortedCoding.com All rights reserved. Licensed
+        </p>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" 
+    integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
